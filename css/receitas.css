@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  color: #fff;
+  
+  }
+header .container {
+  width: 100%;
+  
+    
+  }
+.logo {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#FFC107;
+  
+}
+.menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFA000;
+}
+.menu ul,
+.menu li {
+  list-style: none;
+  display: flex;
+  
+}
+.menu li a {
+  width: 100px;
+  height: 50px;
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #FDFDFD;
+}
+.menu li a:hover {
+  background-color: #FFC107;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  
+}
+main .container {
+  width: 1400px; 
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 140px;
+  
+}
+main .container__h1 {
+  margin-top: 110px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  text-transform: lowercase;
+  color: #FFA000;
+  width: 100%;
+  margin-bottom: 70px;
+}
+main .container__item {
+  display:flex ; 
+  flex-direction:column; 
+  align-items:center;
+  margin-bottom: 120px;
+  
+}
+main .container img {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+}
+main .container h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  text-transform: lowercase;
+  margin-top: 10px;
+}
+main .container button {
+  background-color: green;
+  color: #fff;
+  border: green;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 30px;
+  margin-top: 15px;
+  
+}
+main .container button a{
+  text-decoration: none;
+}
+main .container button:hover {
+  background-color: #86e86d;
+}
+
+
+
+
+
+
+footer {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color:#FFC107;
+  color: #fff;
+  height: 120px;
+}
+footer span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* text-transform: lowercase; */
+  color: #FFFFFF;
+  
+}
